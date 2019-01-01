@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Wechat\CheckSignature;
+use App\Wechat\Menu;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
@@ -71,11 +72,21 @@ class WeChatController extends Controller
             case 'unsubscribe':
                 $content = '取消关注';
                 break;
+            case "scancode_waitmsg":
+                if ($object->ScanCodeInfo->ScanType == "barcode"){
+                    $codeinfo = explode(",",strval($object->ScanCodeInfo->ScanResult));
+                    $codeValue = $codeinfo[1];
+                    $content = array();
+                    $content[] = array("Title"=>"扫描成功",  "Description"=>"快递号：".$codeValue."\r\n点击查看快递进度详情", "PicUrl"=>"", "Url" =>"m.kuaidi100.com/result.jsp?nu=".$codeValue);
+                }else{
+                    $content = "不是条码";
+                }
+                break;
             default:
                 $content = 'receive a new event: ' . $object->Event;
         }
         if (is_array($content)) {
-            $result = $this->transmitNers($object, $content);
+            $result = $this->transmitNews($object, $content);
         } else {
             $result = $this->transmitText($object, $content);
         }
@@ -383,4 +394,9 @@ $item_str    </Articles>
         return $joke;
     }
 
+
+    public function createMenu()
+    {
+        dd((new Menu())->createMenu());
+    }
 }
