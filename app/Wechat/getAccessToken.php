@@ -15,6 +15,7 @@ class getAccessToken
         $client = new \GuzzleHttp\Client();
         $res = $client->request('GET', $url);
         $result = json_decode($res->getBody(), true);
-        Cache::add($appid, $result['access_token'], $result['expires_in']);
+        Cache::put($appid, $result['access_token'], $result['expires_in']);
+        dd(Cache::get($appid));
     }
 }

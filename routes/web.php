@@ -13,3 +13,4 @@
 
 Route::any('/wechat', 'WeChatController@index');
 Route::get('/menu', 'WeChatController@createMenu');
+Route::resource('/tags', 'TagController');
