@@ -5,14 +5,13 @@ namespace App\Http\Controllers;
 use App\Wechat\CheckSignature;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
-use Illuminate\Support\Facades\Log;
 
 class WeChatController extends Controller
 {
     public function index(Request $request)
     {
         if (isset($request->echostr)) {
-            if ((new CheckSignature)->checkSignature($request)) {
+            if (new CheckSignature($request)) {
                 echo $request->echostr;
             }
         } else {

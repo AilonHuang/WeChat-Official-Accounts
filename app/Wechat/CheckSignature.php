@@ -6,9 +6,8 @@ use Illuminate\Http\Request;
 
 class CheckSignature
 {
-    public function checkSignature(Request $request)
-    {
-        $signature = $request->signature;
+    public function __construct(Request $request)
+    {$signature = $request->signature;
         $timestamp = $request->timestamp;
         $nonce = $request->nonce;
 
