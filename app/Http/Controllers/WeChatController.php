@@ -79,7 +79,17 @@ class WeChatController extends Controller
     {
         switch ($object->Event) {
             case 'subscribe':
-                $content = '欢迎关注我，查询天气，发送天气加城市名，如“深圳天气”';
+                $openid = strval($object->FromUserName);
+                $info = (new User)->info($openid);
+                $municipalities = array("北京", "上海", "天津", "重庆", "香港", "澳门"); //四市二区 市名为区地区，这里用省名代替市名
+                if (in_array($info['province'], $municipalities)){
+                    $info['city'] = $info['province'];
+                }
+                $content = "欢迎关注，".$info['nickname'];
+                if ($info['country'] == "中国"){
+                    $weatherInfo = $this->getWeatherInfo($info['city']);
+                    $content .= "\r\n您来自 ".$info['city']."，当前天气如下\r\n".$weatherInfo[1]["Title"];
+                }
                 break;
             case 'unsubscribe':
                 $content = '取消关注';

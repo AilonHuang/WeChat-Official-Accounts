@@ -24,14 +24,13 @@ class User
         dd(json_decode($res->getBody(), true));
     }
 
-    public function info()
+    public function info($openid)
     {
         $access_token = Cache::get(env('WECHAT_APPID'));
-        $openid = 'oYPVm6PPgv919I2I6N1TZmyqkeIo';
         $url = "https://api.weixin.qq.com/cgi-bin/user/info?access_token=" . $access_token . "&openid=" . $openid ."&lang=zh_CN";
         $client = new \GuzzleHttp\Client();
         $res = $client->request('GET', $url);
-        dd(json_decode($res->getBody(), true));
+        return json_decode($res->getBody(), true);
     }
 
     public function batchInfo()

@@ -1833,4 +1833,309 @@ OpenID：oYPVm6PPgv919I2I6N1TZmyqkeIo
     <CreateTime>1546613515</CreateTime>
     <MsgType><![CDATA[text]]></MsgType>
     <Content><![CDATA[位置 贵州省 贵阳市 乌当区 福建街]]></Content>
+</xml>\r\n2019-01-04 23:26:51 R 
+<xml><ToUserName><![CDATA[gh_62a00f0faec5]]></ToUserName>
+<FromUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></FromUserName>
+<CreateTime>1546615611</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>26.609409</Latitude>
+<Longitude>106.639626</Longitude>
+<Precision>30.000000</Precision>
+</xml>\r\n2019-01-04 23:26:51 T 
+<xml>
+    <ToUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></ToUserName>
+    <FromUserName><![CDATA[gh_62a00f0faec5]]></FromUserName>
+    <CreateTime>1546615611</CreateTime>
+    <MsgType><![CDATA[text]]></MsgType>
+    <Content><![CDATA[位置 贵州省 贵阳市 乌当区 福建街]]></Content>
+</xml>\r\n2019-01-04 23:26:55 R 
+<xml><ToUserName><![CDATA[gh_62a00f0faec5]]></ToUserName>
+<FromUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></FromUserName>
+<CreateTime>1546615615</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>\r\n2019-01-04 23:26:55 T 
+<xml>
+    <ToUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></ToUserName>
+    <FromUserName><![CDATA[gh_62a00f0faec5]]></FromUserName>
+    <CreateTime>1546615615</CreateTime>
+    <MsgType><![CDATA[text]]></MsgType>
+    <Content><![CDATA[取消关注]]></Content>
+</xml>\r\n2019-01-04 23:27:01 R 
+<xml><ToUserName><![CDATA[gh_62a00f0faec5]]></ToUserName>
+<FromUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></FromUserName>
+<CreateTime>1546615621</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>\r\n2019-01-04 23:27:13 R 
+<xml><ToUserName><![CDATA[gh_62a00f0faec5]]></ToUserName>
+<FromUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></FromUserName>
+<CreateTime>1546615632</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>26.609409</Latitude>
+<Longitude>106.639626</Longitude>
+<Precision>30.000000</Precision>
+</xml>\r\n2019-01-04 23:27:13 T 
+<xml>
+    <ToUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></ToUserName>
+    <FromUserName><![CDATA[gh_62a00f0faec5]]></FromUserName>
+    <CreateTime>1546615633</CreateTime>
+    <MsgType><![CDATA[text]]></MsgType>
+    <Content><![CDATA[位置 贵州省 贵阳市 乌当区 福建街]]></Content>
+</xml>\r\n2019-01-04 23:27:22 R 
+<xml><ToUserName><![CDATA[gh_62a00f0faec5]]></ToUserName>
+<FromUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></FromUserName>
+<CreateTime>1546615642</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>\r\n2019-01-04 23:27:22 T 
+<xml>
+    <ToUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></ToUserName>
+    <FromUserName><![CDATA[gh_62a00f0faec5]]></FromUserName>
+    <CreateTime>1546615642</CreateTime>
+    <MsgType><![CDATA[text]]></MsgType>
+    <Content><![CDATA[取消关注]]></Content>
+</xml>\r\n2019-01-04 23:27:31 R 
+<xml><ToUserName><![CDATA[gh_62a00f0faec5]]></ToUserName>
+<FromUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></FromUserName>
+<CreateTime>1546615651</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>\r\n2019-01-04 23:27:45 R 
+<xml><ToUserName><![CDATA[gh_62a00f0faec5]]></ToUserName>
+<FromUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></FromUserName>
+<CreateTime>1546615665</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>\r\n2019-01-04 23:27:45 T 
+<xml>
+    <ToUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></ToUserName>
+    <FromUserName><![CDATA[gh_62a00f0faec5]]></FromUserName>
+    <CreateTime>1546615665</CreateTime>
+    <MsgType><![CDATA[text]]></MsgType>
+    <Content><![CDATA[取消关注]]></Content>
+</xml>\r\n2019-01-04 23:27:51 R 
+<xml><ToUserName><![CDATA[gh_62a00f0faec5]]></ToUserName>
+<FromUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></FromUserName>
+<CreateTime>1546615671</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>\r\n2019-01-04 23:27:55 R 
+<xml><ToUserName><![CDATA[gh_62a00f0faec5]]></ToUserName>
+<FromUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></FromUserName>
+<CreateTime>1546615674</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>26.609409</Latitude>
+<Longitude>106.639626</Longitude>
+<Precision>30.000000</Precision>
+</xml>\r\n2019-01-04 23:27:55 T 
+<xml>
+    <ToUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></ToUserName>
+    <FromUserName><![CDATA[gh_62a00f0faec5]]></FromUserName>
+    <CreateTime>1546615675</CreateTime>
+    <MsgType><![CDATA[text]]></MsgType>
+    <Content><![CDATA[位置 贵州省 贵阳市 乌当区 福建街]]></Content>
+</xml>\r\n2019-01-04 23:28:31 R 
+<xml><ToUserName><![CDATA[gh_62a00f0faec5]]></ToUserName>
+<FromUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></FromUserName>
+<CreateTime>1546615711</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>\r\n2019-01-04 23:28:31 T 
+<xml>
+    <ToUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></ToUserName>
+    <FromUserName><![CDATA[gh_62a00f0faec5]]></FromUserName>
+    <CreateTime>1546615711</CreateTime>
+    <MsgType><![CDATA[text]]></MsgType>
+    <Content><![CDATA[取消关注]]></Content>
+</xml>\r\n2019-01-04 23:28:38 R 
+<xml><ToUserName><![CDATA[gh_62a00f0faec5]]></ToUserName>
+<FromUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></FromUserName>
+<CreateTime>1546615718</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>\r\n2019-01-04 23:28:46 R 
+<xml><ToUserName><![CDATA[gh_62a00f0faec5]]></ToUserName>
+<FromUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></FromUserName>
+<CreateTime>1546615725</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>26.609409</Latitude>
+<Longitude>106.639626</Longitude>
+<Precision>30.000000</Precision>
+</xml>\r\n2019-01-04 23:28:46 T 
+<xml>
+    <ToUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></ToUserName>
+    <FromUserName><![CDATA[gh_62a00f0faec5]]></FromUserName>
+    <CreateTime>1546615726</CreateTime>
+    <MsgType><![CDATA[text]]></MsgType>
+    <Content><![CDATA[位置 贵州省 贵阳市 乌当区 福建街]]></Content>
+</xml>\r\n2019-01-04 23:29:34 R 
+<xml><ToUserName><![CDATA[gh_62a00f0faec5]]></ToUserName>
+<FromUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></FromUserName>
+<CreateTime>1546615774</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>\r\n2019-01-04 23:29:34 T 
+<xml>
+    <ToUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></ToUserName>
+    <FromUserName><![CDATA[gh_62a00f0faec5]]></FromUserName>
+    <CreateTime>1546615774</CreateTime>
+    <MsgType><![CDATA[text]]></MsgType>
+    <Content><![CDATA[取消关注]]></Content>
+</xml>\r\n2019-01-04 23:30:04 R 
+<xml><ToUserName><![CDATA[gh_62a00f0faec5]]></ToUserName>
+<FromUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></FromUserName>
+<CreateTime>1546615803</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>\r\n2019-01-04 23:31:00 R 
+<xml><ToUserName><![CDATA[gh_62a00f0faec5]]></ToUserName>
+<FromUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></FromUserName>
+<CreateTime>1546615860</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>\r\n2019-01-04 23:31:00 T 
+<xml>
+    <ToUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></ToUserName>
+    <FromUserName><![CDATA[gh_62a00f0faec5]]></FromUserName>
+    <CreateTime>1546615860</CreateTime>
+    <MsgType><![CDATA[text]]></MsgType>
+    <Content><![CDATA[取消关注]]></Content>
+</xml>\r\n2019-01-04 23:31:06 R 
+<xml><ToUserName><![CDATA[gh_62a00f0faec5]]></ToUserName>
+<FromUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></FromUserName>
+<CreateTime>1546615865</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>\r\n2019-01-04 23:31:48 R 
+<xml><ToUserName><![CDATA[gh_62a00f0faec5]]></ToUserName>
+<FromUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></FromUserName>
+<CreateTime>1546615908</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>\r\n2019-01-04 23:31:48 T 
+<xml>
+    <ToUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></ToUserName>
+    <FromUserName><![CDATA[gh_62a00f0faec5]]></FromUserName>
+    <CreateTime>1546615908</CreateTime>
+    <MsgType><![CDATA[text]]></MsgType>
+    <Content><![CDATA[取消关注]]></Content>
+</xml>\r\n2019-01-04 23:31:54 R 
+<xml><ToUserName><![CDATA[gh_62a00f0faec5]]></ToUserName>
+<FromUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></FromUserName>
+<CreateTime>1546615914</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>\r\n2019-01-04 23:32:16 R 
+<xml><ToUserName><![CDATA[gh_62a00f0faec5]]></ToUserName>
+<FromUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></FromUserName>
+<CreateTime>1546615936</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>\r\n2019-01-04 23:32:16 T 
+<xml>
+    <ToUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></ToUserName>
+    <FromUserName><![CDATA[gh_62a00f0faec5]]></FromUserName>
+    <CreateTime>1546615936</CreateTime>
+    <MsgType><![CDATA[text]]></MsgType>
+    <Content><![CDATA[取消关注]]></Content>
+</xml>\r\n2019-01-04 23:32:21 R 
+<xml><ToUserName><![CDATA[gh_62a00f0faec5]]></ToUserName>
+<FromUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></FromUserName>
+<CreateTime>1546615941</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>\r\n2019-01-04 23:32:55 R 
+<xml><ToUserName><![CDATA[gh_62a00f0faec5]]></ToUserName>
+<FromUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></FromUserName>
+<CreateTime>1546615974</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>\r\n2019-01-04 23:32:55 T 
+<xml>
+    <ToUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></ToUserName>
+    <FromUserName><![CDATA[gh_62a00f0faec5]]></FromUserName>
+    <CreateTime>1546615975</CreateTime>
+    <MsgType><![CDATA[text]]></MsgType>
+    <Content><![CDATA[取消关注]]></Content>
+</xml>\r\n2019-01-04 23:33:00 R 
+<xml><ToUserName><![CDATA[gh_62a00f0faec5]]></ToUserName>
+<FromUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></FromUserName>
+<CreateTime>1546615980</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>\r\n2019-01-04 23:34:05 R 
+<xml><ToUserName><![CDATA[gh_62a00f0faec5]]></ToUserName>
+<FromUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></FromUserName>
+<CreateTime>1546616044</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>\r\n2019-01-04 23:34:05 T 
+<xml>
+    <ToUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></ToUserName>
+    <FromUserName><![CDATA[gh_62a00f0faec5]]></FromUserName>
+    <CreateTime>1546616045</CreateTime>
+    <MsgType><![CDATA[text]]></MsgType>
+    <Content><![CDATA[取消关注]]></Content>
+</xml>\r\n2019-01-04 23:34:10 R 
+<xml><ToUserName><![CDATA[gh_62a00f0faec5]]></ToUserName>
+<FromUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></FromUserName>
+<CreateTime>1546616049</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>\r\n2019-01-04 23:34:55 R 
+<xml><ToUserName><![CDATA[gh_62a00f0faec5]]></ToUserName>
+<FromUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></FromUserName>
+<CreateTime>1546616095</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>\r\n2019-01-04 23:34:55 T 
+<xml>
+    <ToUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></ToUserName>
+    <FromUserName><![CDATA[gh_62a00f0faec5]]></FromUserName>
+    <CreateTime>1546616095</CreateTime>
+    <MsgType><![CDATA[text]]></MsgType>
+    <Content><![CDATA[取消关注]]></Content>
+</xml>\r\n2019-01-04 23:35:05 R 
+<xml><ToUserName><![CDATA[gh_62a00f0faec5]]></ToUserName>
+<FromUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></FromUserName>
+<CreateTime>1546616105</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>\r\n2019-01-04 23:35:06 T 
+<xml>
+    <ToUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></ToUserName>
+    <FromUserName><![CDATA[gh_62a00f0faec5]]></FromUserName>
+    <CreateTime>1546616106</CreateTime>
+    <MsgType><![CDATA[text]]></MsgType>
+    <Content><![CDATA[欢迎关注，WX回复可能不及时
+您来自 黔西南，当前天气如下
+周五 01月04日 (实时：8℃)
+雾转阴 南风3-4级 16 ~ 8℃]]></Content>
 </xml>\r\n
