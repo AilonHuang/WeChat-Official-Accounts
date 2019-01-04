@@ -12,6 +12,7 @@
 */
 
 Route::any('/wechat', 'WeChatController@index');
+Route::get('/remark', 'WeChatController@remark');
 Route::get('/getAccessToken', 'WeChatController@getAccessToken');
 Route::get('/menu', 'WeChatController@createMenu');
 Route::get('/tags/users', 'TagController@users');

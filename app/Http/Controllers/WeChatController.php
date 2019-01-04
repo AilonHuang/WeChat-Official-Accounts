@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Wechat\CheckSignature;
 use App\Wechat\getAccessToken;
 use App\Wechat\Menu;
+use App\Wechat\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
@@ -19,6 +20,11 @@ class WeChatController extends Controller
         } else {
             $this->responseMsg($request);
         }
+    }
+
+    public function remark()
+    {
+        (new User)->remark();
     }
 
     public function getAccessToken()
