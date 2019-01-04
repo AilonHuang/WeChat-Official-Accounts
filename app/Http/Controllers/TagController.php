@@ -26,4 +26,14 @@ class TagController extends Controller
     {
         (new Tag)->destroy();
     }
+
+    public function batchUser()
+    {
+        (new Tag)->batchUser();
+    }
+
+    public function users()
+    {
+        (new Tag)->users();
+    }
 }

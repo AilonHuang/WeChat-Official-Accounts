@@ -1558,4 +1558,58 @@ OpenID：oYPVm6PPgv919I2I6N1TZmyqkeIo
             <Url><![CDATA[m.kuaidi100.com/result.jsp?nu=252428060544]]></Url>
         </item>
     </Articles>
+</xml>\r\n2019-01-01 20:56:24 R 
+<xml><ToUserName><![CDATA[gh_62a00f0faec5]]></ToUserName>
+<FromUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></FromUserName>
+<CreateTime>1546347380</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>\r\n2019-01-01 20:56:24 T 
+<xml>
+    <ToUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></ToUserName>
+    <FromUserName><![CDATA[gh_62a00f0faec5]]></FromUserName>
+    <CreateTime>1546347384</CreateTime>
+    <MsgType><![CDATA[text]]></MsgType>
+    <Content><![CDATA[取消关注]]></Content>
+</xml>\r\n2019-01-03 21:33:06 R 
+<xml><ToUserName><![CDATA[gh_62a00f0faec5]]></ToUserName>
+<FromUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></FromUserName>
+<CreateTime>1546522385</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>\r\n2019-01-03 21:33:06 T 
+<xml>
+    <ToUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></ToUserName>
+    <FromUserName><![CDATA[gh_62a00f0faec5]]></FromUserName>
+    <CreateTime>1546522386</CreateTime>
+    <MsgType><![CDATA[text]]></MsgType>
+    <Content><![CDATA[欢迎关注我，查询天气，发送天气加城市名，如“深圳天气”]]></Content>
+</xml>\r\n2019-01-03 21:33:15 R 
+<xml><ToUserName><![CDATA[gh_62a00f0faec5]]></ToUserName>
+<FromUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></FromUserName>
+<CreateTime>1546522394</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[贵阳天气]]></Content>
+<MsgId>6642263105244894543</MsgId>
+</xml>\r\n2019-01-03 21:33:15 T 
+<xml>
+    <ToUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></ToUserName>
+    <FromUserName><![CDATA[gh_62a00f0faec5]]></FromUserName>
+    <CreateTime>1546522395</CreateTime>
+    <MsgType><![CDATA[text]]></MsgType>
+    <Content><![CDATA[贵阳天气预报
+
+周四 01月03日 (实时：6℃)
+雨夹雪转小雨 西南风3-4级 8 ~ 4℃
+
+周五
+小雨 南风微风 10 ~ 4℃
+
+周六
+多云 无持续风向微风 10 ~ 3℃
+
+周日
+多云转小雨 南风微风 13 ~ 5℃]]></Content>
 </xml>\r\n
