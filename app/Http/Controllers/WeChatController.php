@@ -85,14 +85,20 @@ class WeChatController extends Controller
                 $content = '取消关注';
                 break;
             case "scancode_waitmsg":
-                if ($object->ScanCodeInfo->ScanType == "barcode"){
-                    $codeinfo = explode(",",strval($object->ScanCodeInfo->ScanResult));
+                if ($object->ScanCodeInfo->ScanType == "barcode") {
+                    $codeinfo = explode(",", strval($object->ScanCodeInfo->ScanResult));
                     $codeValue = $codeinfo[1];
                     $content = array();
-                    $content[] = array("Title"=>"扫描成功",  "Description"=>"快递号：".$codeValue."\r\n点击查看快递进度详情", "PicUrl"=>"", "Url" =>"m.kuaidi100.com/result.jsp?nu=".$codeValue);
-                }else{
+                    $content[] = array("Title" => "扫描成功", "Description" => "快递号：" . $codeValue . "\r\n点击查看快递进度详情", "PicUrl" => "", "Url" => "m.kuaidi100.com/result.jsp?nu=" . $codeValue);
+                } else {
                     $content = "不是条码";
                 }
+                break;
+            case "LOCATION":
+                $url = "http://api.map.baidu.com/geocoder/v2/?ak=B944e1fce373e33ea4627f95f54f2ef9&location=$object->Latitude,$object->Longitude&output=json&coordtype=gcj02ll";
+                $output = file_get_contents($url);
+                $address = json_decode($output, true);
+                $content = "位置 " . $address["result"]["addressComponent"]["province"] . " " . $address["result"]["addressComponent"]["city"] . " " . $address["result"]["addressComponent"]["district"] . " " . $address["result"]["addressComponent"]["street"];
                 break;
             default:
                 $content = 'receive a new event: ' . $object->Event;
@@ -130,7 +136,7 @@ class WeChatController extends Controller
             $content = array();
             $content = array("Title" => "最炫民族风", "Description" => "歌手：凤凰传奇", "MusicUrl" => "http://mascot-music.stor.sinaapp.com/zxmzf.mp3", "HQMusicUrl" => "http://mascot-music.stor.sinaapp.com/zxmzf.mp3");
         } else {
-            $content =  $this->getJokeInfo();
+            $content = $this->getJokeInfo();
         }
 
         if (is_array($content)) {
@@ -212,15 +218,15 @@ class WeChatController extends Controller
     //回复图文消息
     private function transmitNews($object, $newsArray)
     {
-        if(!is_array($newsArray)){
+        if (!is_array($newsArray)) {
             return "";
         }
 
         //多图文转文本回复
-        if (count($newsArray) > 1){
+        if (count($newsArray) > 1) {
             $content = "";
             foreach ($newsArray as &$item) {
-                $content .= "\n\n".(empty($item["Url"]) ? $item["Title"] : "<a href='".$item["Url"]."'>".$item["Title"]."</a>");
+                $content .= "\n\n" . (empty($item["Url"]) ? $item["Title"] : "<a href='" . $item["Url"] . "'>" . $item["Title"] . "</a>");
             }
             $result = $this->transmitText($object, trim($content));
             return $result;
@@ -234,7 +240,7 @@ class WeChatController extends Controller
         </item>
 ";
         $item_str = "";
-        foreach ($newsArray as $item){
+        foreach ($newsArray as $item) {
             $item_str .= sprintf($itemTpl, $item['Title'], $item['Description'], $item['PicUrl'], $item['Url']);
         }
         $xmlTpl = "<xml>
@@ -386,15 +392,15 @@ $item_str    </Articles>
         $curHour = (int)date('H', time());
         $weather = $result["results"][0];
 
-        $weatherArray[] = array("Title" =>$weather['currentCity']."天气预报", "Description" =>"", "PicUrl" =>"", "Url" =>"");
+        $weatherArray[] = array("Title" => $weather['currentCity'] . "天气预报", "Description" => "", "PicUrl" => "", "Url" => "");
         for ($i = 0; $i < count($weather["weather_data"]); $i++) {
-            $weatherArray[] = array("Title"=>
-                $weather["weather_data"][$i]["date"]."\n".
-                $weather["weather_data"][$i]["weather"]." ".
-                $weather["weather_data"][$i]["wind"]." ".
+            $weatherArray[] = array("Title" =>
+                $weather["weather_data"][$i]["date"] . "\n" .
+                $weather["weather_data"][$i]["weather"] . " " .
+                $weather["weather_data"][$i]["wind"] . " " .
                 $weather["weather_data"][$i]["temperature"],
-                "Description"=>"",
-                "PicUrl"=>(($curHour >= 6) && ($curHour < 18))?$weather["weather_data"][$i]["dayPictureUrl"]:$weather["weather_data"][$i]["nightPictureUrl"], "Url"=>"");
+                "Description" => "",
+                "PicUrl" => (($curHour >= 6) && ($curHour < 18)) ? $weather["weather_data"][$i]["dayPictureUrl"] : $weather["weather_data"][$i]["nightPictureUrl"], "Url" => "");
         }
         return $weatherArray;
     }
