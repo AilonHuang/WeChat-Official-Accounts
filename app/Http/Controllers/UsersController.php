@@ -11,4 +11,14 @@ class UsersController extends Controller
     {
         (new User)->list();
     }
+
+    public function show()
+    {
+        (new User)->info();
+    }
+
+    public function batchInfo()
+    {
+        (new User)->batchInfo();
+    }
 }

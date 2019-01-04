@@ -19,9 +19,38 @@ class User
     {
         $access_token = Cache::get(env('WECHAT_APPID'));
         $url = "https://api.weixin.qq.com/cgi-bin/user/get?access_token=" . $access_token . "&next_openid=";
-        echo $url;
         $client = new \GuzzleHttp\Client();
         $res = $client->request('GET', $url);
+        dd(json_decode($res->getBody(), true));
+    }
+
+    public function info()
+    {
+        $access_token = Cache::get(env('WECHAT_APPID'));
+        $openid = 'oYPVm6PPgv919I2I6N1TZmyqkeIo';
+        $url = "https://api.weixin.qq.com/cgi-bin/user/info?access_token=" . $access_token . "&openid=" . $openid ."&lang=zh_CN";
+        $client = new \GuzzleHttp\Client();
+        $res = $client->request('GET', $url);
+        dd(json_decode($res->getBody(), true));
+    }
+
+    public function batchInfo()
+    {
+        $access_token = Cache::get(env('WECHAT_APPID'));
+        $url = "https://api.weixin.qq.com/cgi-bin/user/info/batchget?access_token=" . $access_token;
+        $client = new \GuzzleHttp\Client();
+        $res = $client->request('POST', $url, ['body' => '{
+    "user_list": [
+        {
+            "openid": "oYPVm6PPgv919I2I6N1TZmyqkeIo", 
+            "lang": "zh_CN"
+        }, 
+        {
+            "openid": "oYPVm6Ey41aEVJ_jr7SIlePIhHIE", 
+            "lang": "zh_CN"
+        }
+    ]
+}']);
         dd(json_decode($res->getBody(), true));
     }
 }

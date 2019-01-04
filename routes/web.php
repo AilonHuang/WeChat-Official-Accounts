@@ -19,4 +19,5 @@ Route::get('/tags/users', 'TagController@users');
 Route::get('/tags/user/tags', 'TagController@userTags');
 Route::resource('/tags', 'TagController');
 Route::post('/tags/batchUser', 'TagController@batchUser');
+Route::get('/users/batchInfo', 'UsersController@batchInfo');
 Route::resource('/users', 'UsersController');
