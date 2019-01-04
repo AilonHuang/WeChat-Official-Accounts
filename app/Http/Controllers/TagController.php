@@ -36,4 +36,9 @@ class TagController extends Controller
     {
         (new Tag)->users();
     }
+
+    public function userTags()
+    {
+        (new Tag)->userTags();
+    }
 }

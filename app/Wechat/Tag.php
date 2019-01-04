@@ -59,4 +59,13 @@ class Tag
         $res = $client->request('POST', $url, ['body' => '{   "tagid" : 101,   "next_openid":""//第一个拉取的OPENID，不填默认从头开始拉取 }']);
         dd(json_decode($res->getBody(), true));
     }
+
+    public function userTags()
+    {
+        $access_token = Cache::get(env('WECHAT_APPID'));
+        $url = "https://api.weixin.qq.com/cgi-bin/tags/getidlist?access_token=" . $access_token;
+        $client = new \GuzzleHttp\Client();
+        $res = $client->request('POST', $url, ['body' => '{   "openid" : "oYPVm6Ey41aEVJ_jr7SIlePIhHIE" }']);
+        dd(json_decode($res->getBody(), true));
+    }
 }
