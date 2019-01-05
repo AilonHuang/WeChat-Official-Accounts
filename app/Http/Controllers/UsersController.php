@@ -21,4 +21,14 @@ class UsersController extends Controller
     {
         (new User)->batchInfo();
     }
+
+    public function syncUsers()
+    {
+        (new User)->syncUsers();
+    }
+
+    public function updateUserInfo()
+    {
+        (new User)->updateUserInfo();
+    }
 }

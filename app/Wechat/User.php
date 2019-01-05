@@ -3,6 +3,7 @@
 namespace App\Wechat;
 
 use Illuminate\Support\Facades\Cache;
+use Illuminate\Support\Facades\DB;
 
 class User
 {
@@ -15,19 +16,24 @@ class User
         dd(json_decode($res->getBody(), true));
     }
 
-    public function list()
+    public function list($next_openid = NULL)
     {
         $access_token = Cache::get(env('WECHAT_APPID'));
-        $url = "https://api.weixin.qq.com/cgi-bin/user/get?access_token=" . $access_token . "&next_openid=";
+        $url = "https://api.weixin.qq.com/cgi-bin/user/get?access_token=" . $access_token . "&next_openid=" . $next_openid;
         $client = new \GuzzleHttp\Client();
         $res = $client->request('GET', $url);
-        dd(json_decode($res->getBody(), true));
+        $list = json_decode($res->getBody(), true);
+        if ($list["count"] == 10000) {
+            $new = $this->list($next_openid = $list["next_openid"]);
+            $list["data"]["openid"] = array_merge_recursive($list["data"]["openid"], $new["data"]["openid"]); //合并OpenID列表
+        }
+        return $list;
     }
 
     public function info($openid)
     {
         $access_token = Cache::get(env('WECHAT_APPID'));
-        $url = "https://api.weixin.qq.com/cgi-bin/user/info?access_token=" . $access_token . "&openid=" . $openid ."&lang=zh_CN";
+        $url = "https://api.weixin.qq.com/cgi-bin/user/info?access_token=" . $access_token . "&openid=" . $openid . "&lang=zh_CN";
         $client = new \GuzzleHttp\Client();
         $res = $client->request('GET', $url);
         return json_decode($res->getBody(), true);
@@ -51,5 +57,38 @@ class User
     ]
 }']);
         dd(json_decode($res->getBody(), true));
+    }
+
+    public function syncUsers()
+    {
+        $user_list = $this->list();
+        for ($i = 0; $i < count($user_list["data"]["openid"]); $i++) {
+            $openid = $user_list["data"]["openid"][$i];
+            DB::table('wx_user')->insert(
+                ['openid' => $openid]
+            );
+        }
+        echo "over";
+    }
+
+    public function updateUserInfo()
+    {
+        $result = DB::table('wx_user')->where('subscribe_time', '=', NULL)->first();
+        $sexes = array("", "男", "女");
+        if ($result) {
+            $openid = $result->openid;
+            $info = $this->info($openid);
+            DB::table('wx_user')->where('openid', '=', $openid)->update([
+                'nickname' => $info['nickname'],
+                'sex' => $sexes[$info['sex']],
+                'country' => $info['country'],
+                'province' => $info['province'],
+                'city' => $info['city'],
+                'headimgurl' => $info['headimgurl'],
+                'subscribe_time' => date('Y-m-d H:i:s', $info['subscribe_time'])
+            ]);
+        } else {
+            echo "over";
+        }
     }
 }

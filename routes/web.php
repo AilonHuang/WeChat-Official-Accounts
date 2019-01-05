@@ -20,4 +20,6 @@ Route::get('/tags/user/tags', 'TagController@userTags');
 Route::resource('/tags', 'TagController');
 Route::post('/tags/batchUser', 'TagController@batchUser');
 Route::get('/users/batchInfo', 'UsersController@batchInfo');
+Route::get('/users/syncUsers', 'UsersController@syncUsers');
+Route::get('/users/updateUserInfo', 'UsersController@updateUserInfo');
 Route::resource('/users', 'UsersController');

@@ -2138,4 +2138,108 @@ OpenID：oYPVm6PPgv919I2I6N1TZmyqkeIo
 您来自 黔西南，当前天气如下
 周五 01月04日 (实时：8℃)
 雾转阴 南风3-4级 16 ~ 8℃]]></Content>
+</xml>\r\n2019-01-04 23:37:55 R 
+<xml><ToUserName><![CDATA[gh_62a00f0faec5]]></ToUserName>
+<FromUserName><![CDATA[oYPVm6Ey41aEVJ_jr7SIlePIhHIE]]></FromUserName>
+<CreateTime>1546616275</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>\r\n2019-01-04 23:38:00 R 
+<xml><ToUserName><![CDATA[gh_62a00f0faec5]]></ToUserName>
+<FromUserName><![CDATA[oYPVm6Ey41aEVJ_jr7SIlePIhHIE]]></FromUserName>
+<CreateTime>1546616275</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>\r\n2019-01-04 23:38:04 R 
+<xml><ToUserName><![CDATA[gh_62a00f0faec5]]></ToUserName>
+<FromUserName><![CDATA[oYPVm6Ey41aEVJ_jr7SIlePIhHIE]]></FromUserName>
+<CreateTime>1546616275</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>\r\n2019-01-04 23:38:04 R 
+<xml><ToUserName><![CDATA[gh_62a00f0faec5]]></ToUserName>
+<FromUserName><![CDATA[oYPVm6Ey41aEVJ_jr7SIlePIhHIE]]></FromUserName>
+<CreateTime>1546616284</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>\r\n2019-01-04 23:38:04 T 
+<xml>
+    <ToUserName><![CDATA[oYPVm6Ey41aEVJ_jr7SIlePIhHIE]]></ToUserName>
+    <FromUserName><![CDATA[gh_62a00f0faec5]]></FromUserName>
+    <CreateTime>1546616284</CreateTime>
+    <MsgType><![CDATA[text]]></MsgType>
+    <Content><![CDATA[取消关注]]></Content>
+</xml>\r\n2019-01-04 23:38:08 R 
+<xml><ToUserName><![CDATA[gh_62a00f0faec5]]></ToUserName>
+<FromUserName><![CDATA[oYPVm6Ey41aEVJ_jr7SIlePIhHIE]]></FromUserName>
+<CreateTime>1546616285</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>\r\n2019-01-04 23:38:11 R 
+<xml><ToUserName><![CDATA[gh_62a00f0faec5]]></ToUserName>
+<FromUserName><![CDATA[oYPVm6Ey41aEVJ_jr7SIlePIhHIE]]></FromUserName>
+<CreateTime>1546616285</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>\r\n2019-01-04 23:38:15 R 
+<xml><ToUserName><![CDATA[gh_62a00f0faec5]]></ToUserName>
+<FromUserName><![CDATA[oYPVm6Ey41aEVJ_jr7SIlePIhHIE]]></FromUserName>
+<CreateTime>1546616293</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>26.609518</Latitude>
+<Longitude>106.639610</Longitude>
+<Precision>65.000000</Precision>
+</xml>\r\n2019-01-04 23:38:15 R 
+<xml><ToUserName><![CDATA[gh_62a00f0faec5]]></ToUserName>
+<FromUserName><![CDATA[oYPVm6Ey41aEVJ_jr7SIlePIhHIE]]></FromUserName>
+<CreateTime>1546616285</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>\r\n2019-01-04 23:38:15 T 
+<xml>
+    <ToUserName><![CDATA[oYPVm6Ey41aEVJ_jr7SIlePIhHIE]]></ToUserName>
+    <FromUserName><![CDATA[gh_62a00f0faec5]]></FromUserName>
+    <CreateTime>1546616295</CreateTime>
+    <MsgType><![CDATA[text]]></MsgType>
+    <Content><![CDATA[位置 贵州省 贵阳市 乌当区 福建街]]></Content>
+</xml>\r\n2019-01-04 23:42:59 R 
+<xml><ToUserName><![CDATA[gh_62a00f0faec5]]></ToUserName>
+<FromUserName><![CDATA[oYPVm6Ey41aEVJ_jr7SIlePIhHIE]]></FromUserName>
+<CreateTime>1546616579</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>26.609529</Latitude>
+<Longitude>106.639656</Longitude>
+<Precision>65.000000</Precision>
+</xml>\r\n2019-01-04 23:42:59 T 
+<xml>
+    <ToUserName><![CDATA[oYPVm6Ey41aEVJ_jr7SIlePIhHIE]]></ToUserName>
+    <FromUserName><![CDATA[gh_62a00f0faec5]]></FromUserName>
+    <CreateTime>1546616579</CreateTime>
+    <MsgType><![CDATA[text]]></MsgType>
+    <Content><![CDATA[位置 贵州省 贵阳市 乌当区 福建街]]></Content>
+</xml>\r\n2019-01-04 23:43:41 R 
+<xml><ToUserName><![CDATA[gh_62a00f0faec5]]></ToUserName>
+<FromUserName><![CDATA[oYPVm6Ey41aEVJ_jr7SIlePIhHIE]]></FromUserName>
+<CreateTime>1546616621</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>26.609501</Latitude>
+<Longitude>106.639732</Longitude>
+<Precision>65.000000</Precision>
+</xml>\r\n2019-01-04 23:43:41 T 
+<xml>
+    <ToUserName><![CDATA[oYPVm6Ey41aEVJ_jr7SIlePIhHIE]]></ToUserName>
+    <FromUserName><![CDATA[gh_62a00f0faec5]]></FromUserName>
+    <CreateTime>1546616621</CreateTime>
+    <MsgType><![CDATA[text]]></MsgType>
+    <Content><![CDATA[位置 贵州省 贵阳市 乌当区 福建街]]></Content>
 </xml>\r\n
