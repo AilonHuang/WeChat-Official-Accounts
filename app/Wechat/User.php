@@ -4,6 +4,7 @@ namespace App\Wechat;
 
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Log;
 
 class User
 {
@@ -90,5 +91,26 @@ class User
         } else {
             echo "over";
         }
+    }
+
+    //生成OAuth2的URL
+    public function oauth2_authorize($redirect_url, $scope, $state = NULL)
+    {
+        $url = "https://open.weixin.qq.com/connect/oauth2/authorize?appid=".env('WECHAT_APPID')."&redirect_uri=".$redirect_url."&response_type=code&scope=".$scope."&state=".$state."#wechat_redirect";
+        return $url;
+    }
+
+    //生成OAuth2的Access Token
+    public function oauth2_access_token($code)
+    {
+        $url = "https://api.weixin.qq.com/sns/oauth2/access_token?appid=".env('WECHAT_APPID')."&secret=".env('APPSECRET')."&code=".$code."&grant_type=authorization_code";
+        $client = new \GuzzleHttp\Client();
+        $res = $client->request('GET', $url);
+        return json_decode($res->getBody(), true);
+    }
+
+    public function oauth2_get_user_info($code)
+    {
+        $this->oauth2_access_token($code);
     }
 }

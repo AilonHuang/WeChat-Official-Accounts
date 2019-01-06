@@ -71,10 +71,16 @@ class Menu
 //             )
 //         );
 
-        $button[] = array('type' => "scancode_waitmsg",
+        $button[] = ['type' => "scancode_waitmsg",
             'name' => "扫快递码",
-            'key'  => "rselfmenu_2_1"
-        );
+            'key' => "rselfmenu_2_1"
+        ];
+
+        $button[] = [
+            'type' => 'view',
+            'name' => '我的信息',
+            'url' => 'http://huangyilun.eicp.vip/userInfo'
+        ];
 
         $access_token = Cache::get(env('WECHAT_APPID'));
         if (isset($matchrule) && !is_null($matchrule)) {

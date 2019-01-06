@@ -2242,4 +2242,128 @@ OpenID：oYPVm6PPgv919I2I6N1TZmyqkeIo
     <CreateTime>1546616621</CreateTime>
     <MsgType><![CDATA[text]]></MsgType>
     <Content><![CDATA[位置 贵州省 贵阳市 乌当区 福建街]]></Content>
+</xml>\r\n2019-01-06 11:53:26 R 
+<xml><ToUserName><![CDATA[gh_62a00f0faec5]]></ToUserName>
+<FromUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></FromUserName>
+<CreateTime>1546746804</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>\r\n2019-01-06 11:53:27 T 
+<xml>
+    <ToUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></ToUserName>
+    <FromUserName><![CDATA[gh_62a00f0faec5]]></FromUserName>
+    <CreateTime>1546746807</CreateTime>
+    <MsgType><![CDATA[text]]></MsgType>
+    <Content><![CDATA[欢迎关注，WX回复可能不及时
+您来自 黔西南，当前天气如下
+周日 01月06日 (实时：14℃)
+多云转阴 东南风微风 19 ~ 9℃]]></Content>
+</xml>\r\n2019-01-06 12:09:24 R 
+<xml><ToUserName><![CDATA[gh_62a00f0faec5]]></ToUserName>
+<FromUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></FromUserName>
+<CreateTime>1546747762</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>\r\n2019-01-06 12:09:24 T 
+<xml>
+    <ToUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></ToUserName>
+    <FromUserName><![CDATA[gh_62a00f0faec5]]></FromUserName>
+    <CreateTime>1546747764</CreateTime>
+    <MsgType><![CDATA[text]]></MsgType>
+    <Content><![CDATA[取消关注]]></Content>
+</xml>\r\n2019-01-06 12:09:37 R 
+<xml><ToUserName><![CDATA[gh_62a00f0faec5]]></ToUserName>
+<FromUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></FromUserName>
+<CreateTime>1546747774</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>\r\n2019-01-06 12:09:37 T 
+<xml>
+    <ToUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></ToUserName>
+    <FromUserName><![CDATA[gh_62a00f0faec5]]></FromUserName>
+    <CreateTime>1546747777</CreateTime>
+    <MsgType><![CDATA[text]]></MsgType>
+    <Content><![CDATA[欢迎关注，WX回复可能不及时
+您来自 黔西南，当前天气如下
+周日 01月06日 (实时：14℃)
+多云转阴 东南风微风 19 ~ 9℃]]></Content>
+</xml>\r\n2019-01-06 12:09:38 R 
+<xml><ToUserName><![CDATA[gh_62a00f0faec5]]></ToUserName>
+<FromUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></FromUserName>
+<CreateTime>1546747776</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://huangyilun.eicp.vip/userInfo]]></EventKey>
+<MenuId>483314531</MenuId>
+</xml>\r\n2019-01-06 12:09:38 T 
+<xml>
+    <ToUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></ToUserName>
+    <FromUserName><![CDATA[gh_62a00f0faec5]]></FromUserName>
+    <CreateTime>1546747778</CreateTime>
+    <MsgType><![CDATA[text]]></MsgType>
+    <Content><![CDATA[receive a new event: VIEW]]></Content>
+</xml>\r\n2019-01-06 12:10:33 R 
+<xml><ToUserName><![CDATA[gh_62a00f0faec5]]></ToUserName>
+<FromUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></FromUserName>
+<CreateTime>1546747831</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://huangyilun.eicp.vip/userInfo]]></EventKey>
+<MenuId>483314531</MenuId>
+</xml>\r\n2019-01-06 12:10:33 T 
+<xml>
+    <ToUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></ToUserName>
+    <FromUserName><![CDATA[gh_62a00f0faec5]]></FromUserName>
+    <CreateTime>1546747833</CreateTime>
+    <MsgType><![CDATA[text]]></MsgType>
+    <Content><![CDATA[receive a new event: VIEW]]></Content>
+</xml>\r\n2019-01-06 12:10:37 R 
+<xml><ToUserName><![CDATA[gh_62a00f0faec5]]></ToUserName>
+<FromUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></FromUserName>
+<CreateTime>1546747835</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://huangyilun.eicp.vip/userInfo]]></EventKey>
+<MenuId>483314531</MenuId>
+</xml>\r\n2019-01-06 12:10:37 T 
+<xml>
+    <ToUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></ToUserName>
+    <FromUserName><![CDATA[gh_62a00f0faec5]]></FromUserName>
+    <CreateTime>1546747837</CreateTime>
+    <MsgType><![CDATA[text]]></MsgType>
+    <Content><![CDATA[receive a new event: VIEW]]></Content>
+</xml>\r\n2019-01-06 12:10:48 R 
+<xml><ToUserName><![CDATA[gh_62a00f0faec5]]></ToUserName>
+<FromUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></FromUserName>
+<CreateTime>1546747846</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://huangyilun.eicp.vip/userInfo]]></EventKey>
+<MenuId>483314531</MenuId>
+</xml>\r\n2019-01-06 12:10:48 T 
+<xml>
+    <ToUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></ToUserName>
+    <FromUserName><![CDATA[gh_62a00f0faec5]]></FromUserName>
+    <CreateTime>1546747848</CreateTime>
+    <MsgType><![CDATA[text]]></MsgType>
+    <Content><![CDATA[receive a new event: VIEW]]></Content>
+</xml>\r\n2019-01-06 12:11:36 R 
+<xml><ToUserName><![CDATA[gh_62a00f0faec5]]></ToUserName>
+<FromUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></FromUserName>
+<CreateTime>1546747894</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>26.609453</Latitude>
+<Longitude>106.639679</Longitude>
+<Precision>30.000000</Precision>
+</xml>\r\n2019-01-06 12:11:36 T 
+<xml>
+    <ToUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></ToUserName>
+    <FromUserName><![CDATA[gh_62a00f0faec5]]></FromUserName>
+    <CreateTime>1546747896</CreateTime>
+    <MsgType><![CDATA[text]]></MsgType>
+    <Content><![CDATA[位置 贵州省 贵阳市 乌当区 福建街]]></Content>
 </xml>\r\n

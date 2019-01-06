@@ -23,3 +23,4 @@ Route::get('/users/batchInfo', 'UsersController@batchInfo');
 Route::get('/users/syncUsers', 'UsersController@syncUsers');
 Route::get('/users/updateUserInfo', 'UsersController@updateUserInfo');
 Route::resource('/users', 'UsersController');
+Route::get('/userInfo', 'UsersController@userInfo');
