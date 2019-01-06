@@ -2366,4 +2366,338 @@ OpenID：oYPVm6PPgv919I2I6N1TZmyqkeIo
     <CreateTime>1546747896</CreateTime>
     <MsgType><![CDATA[text]]></MsgType>
     <Content><![CDATA[位置 贵州省 贵阳市 乌当区 福建街]]></Content>
+</xml>\r\n2019-01-06 12:13:02 R 
+<xml><ToUserName><![CDATA[gh_62a00f0faec5]]></ToUserName>
+<FromUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></FromUserName>
+<CreateTime>1546747980</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>26.609411</Latitude>
+<Longitude>106.639694</Longitude>
+<Precision>30.000000</Precision>
+</xml>\r\n2019-01-06 12:13:02 T 
+<xml>
+    <ToUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></ToUserName>
+    <FromUserName><![CDATA[gh_62a00f0faec5]]></FromUserName>
+    <CreateTime>1546747982</CreateTime>
+    <MsgType><![CDATA[text]]></MsgType>
+    <Content><![CDATA[位置 贵州省 贵阳市 乌当区 福建街]]></Content>
+</xml>\r\n2019-01-06 12:14:01 R 
+<xml><ToUserName><![CDATA[gh_62a00f0faec5]]></ToUserName>
+<FromUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></FromUserName>
+<CreateTime>1546748038</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>26.609411</Latitude>
+<Longitude>106.639694</Longitude>
+<Precision>30.000000</Precision>
+</xml>\r\n2019-01-06 12:14:01 T 
+<xml>
+    <ToUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></ToUserName>
+    <FromUserName><![CDATA[gh_62a00f0faec5]]></FromUserName>
+    <CreateTime>1546748041</CreateTime>
+    <MsgType><![CDATA[text]]></MsgType>
+    <Content><![CDATA[位置 贵州省 贵阳市 乌当区 福建街]]></Content>
+</xml>\r\n2019-01-06 12:14:11 R 
+<xml><ToUserName><![CDATA[gh_62a00f0faec5]]></ToUserName>
+<FromUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></FromUserName>
+<CreateTime>1546748049</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>26.609358</Latitude>
+<Longitude>106.639740</Longitude>
+<Precision>30.000000</Precision>
+</xml>\r\n2019-01-06 12:14:11 T 
+<xml>
+    <ToUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></ToUserName>
+    <FromUserName><![CDATA[gh_62a00f0faec5]]></FromUserName>
+    <CreateTime>1546748051</CreateTime>
+    <MsgType><![CDATA[text]]></MsgType>
+    <Content><![CDATA[位置 贵州省 贵阳市 乌当区 福建街]]></Content>
+</xml>\r\n2019-01-06 12:15:00 R 
+<xml><ToUserName><![CDATA[gh_62a00f0faec5]]></ToUserName>
+<FromUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></FromUserName>
+<CreateTime>1546748097</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>26.609308</Latitude>
+<Longitude>106.639809</Longitude>
+<Precision>30.000000</Precision>
+</xml>\r\n2019-01-06 12:15:00 T 
+<xml>
+    <ToUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></ToUserName>
+    <FromUserName><![CDATA[gh_62a00f0faec5]]></FromUserName>
+    <CreateTime>1546748100</CreateTime>
+    <MsgType><![CDATA[text]]></MsgType>
+    <Content><![CDATA[位置 贵州省 贵阳市 乌当区 福建街]]></Content>
+</xml>\r\n2019-01-06 12:15:10 R 
+<xml><ToUserName><![CDATA[gh_62a00f0faec5]]></ToUserName>
+<FromUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></FromUserName>
+<CreateTime>1546748107</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>26.609308</Latitude>
+<Longitude>106.639809</Longitude>
+<Precision>30.000000</Precision>
+</xml>\r\n2019-01-06 12:15:10 T 
+<xml>
+    <ToUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></ToUserName>
+    <FromUserName><![CDATA[gh_62a00f0faec5]]></FromUserName>
+    <CreateTime>1546748110</CreateTime>
+    <MsgType><![CDATA[text]]></MsgType>
+    <Content><![CDATA[位置 123123贵州省 贵阳市 乌当区 福建街
+当前天气如下
+周日 01月06日 (实时：8℃)
+阴转小雨 南风微风 8 ~ 3℃]]></Content>
+</xml>\r\n2019-01-06 12:15:54 R 
+<xml><ToUserName><![CDATA[gh_62a00f0faec5]]></ToUserName>
+<FromUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></FromUserName>
+<CreateTime>1546748152</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>26.609308</Latitude>
+<Longitude>106.639809</Longitude>
+<Precision>30.000000</Precision>
+</xml>\r\n2019-01-06 12:15:54 T 
+<xml>
+    <ToUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></ToUserName>
+    <FromUserName><![CDATA[gh_62a00f0faec5]]></FromUserName>
+    <CreateTime>1546748154</CreateTime>
+    <MsgType><![CDATA[text]]></MsgType>
+    <Content><![CDATA[位置 123123贵州省 贵阳市 乌当区 福建街
+当前天气如下
+周日 01月06日 (实时：8℃)
+阴转小雨 南风微风 8 ~ 3℃]]></Content>
+</xml>\r\n2019-01-06 12:16:00 R 
+<xml><ToUserName><![CDATA[gh_62a00f0faec5]]></ToUserName>
+<FromUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></FromUserName>
+<CreateTime>1546748158</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>26.609308</Latitude>
+<Longitude>106.639809</Longitude>
+<Precision>30.000000</Precision>
+</xml>\r\n2019-01-06 12:16:00 T 
+<xml>
+    <ToUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></ToUserName>
+    <FromUserName><![CDATA[gh_62a00f0faec5]]></FromUserName>
+    <CreateTime>1546748160</CreateTime>
+    <MsgType><![CDATA[text]]></MsgType>
+    <Content><![CDATA[位置 贵州省 贵阳市 乌当区 福建街
+贵阳市当前天气如下
+周日 01月06日 (实时：8℃)
+阴转小雨 南风微风 8 ~ 3℃]]></Content>
+</xml>\r\n2019-01-06 12:18:57 R 
+<xml><ToUserName><![CDATA[gh_62a00f0faec5]]></ToUserName>
+<FromUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></FromUserName>
+<CreateTime>1546748335</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>26.609369</Latitude>
+<Longitude>106.639694</Longitude>
+<Precision>30.000000</Precision>
+</xml>\r\n2019-01-06 12:18:58 T 
+<xml>
+    <ToUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></ToUserName>
+    <FromUserName><![CDATA[gh_62a00f0faec5]]></FromUserName>
+    <CreateTime>1546748338</CreateTime>
+    <MsgType><![CDATA[text]]></MsgType>
+    <Content><![CDATA[位置 贵州省 贵阳市 乌当区 福建街
+贵阳市当前天气如下
+周日 01月06日 (实时：8℃)
+阴转小雨 南风微风 8 ~ 3℃]]></Content>
+</xml>\r\n2019-01-06 12:19:11 R 
+<xml><ToUserName><![CDATA[gh_62a00f0faec5]]></ToUserName>
+<FromUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></FromUserName>
+<CreateTime>1546748348</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>26.609369</Latitude>
+<Longitude>106.639694</Longitude>
+<Precision>30.000000</Precision>
+</xml>\r\n2019-01-06 12:19:11 T 
+<xml>
+    <ToUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></ToUserName>
+    <FromUserName><![CDATA[gh_62a00f0faec5]]></FromUserName>
+    <CreateTime>1546748351</CreateTime>
+    <MsgType><![CDATA[text]]></MsgType>
+    <Content><![CDATA[位置 贵州省 贵阳市 乌当区 福建街
+贵阳市当前天气如下
+周日 01月06日 (实时：8℃)
+阴转小雨 南风微风 8 ~ 3℃]]></Content>
+</xml>\r\n2019-01-06 12:19:20 R 
+<xml><ToUserName><![CDATA[gh_62a00f0faec5]]></ToUserName>
+<FromUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></FromUserName>
+<CreateTime>1546748358</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://huangyilun.eicp.vip/userInfo]]></EventKey>
+<MenuId>483314531</MenuId>
+</xml>\r\n2019-01-06 12:19:20 T 
+<xml>
+    <ToUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></ToUserName>
+    <FromUserName><![CDATA[gh_62a00f0faec5]]></FromUserName>
+    <CreateTime>1546748360</CreateTime>
+    <MsgType><![CDATA[text]]></MsgType>
+    <Content><![CDATA[receive a new event: VIEW]]></Content>
+</xml>\r\n2019-01-06 12:19:22 R 
+<xml><ToUserName><![CDATA[gh_62a00f0faec5]]></ToUserName>
+<FromUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></FromUserName>
+<CreateTime>1546748360</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>26.609369</Latitude>
+<Longitude>106.639694</Longitude>
+<Precision>30.000000</Precision>
+</xml>\r\n2019-01-06 12:19:22 T 
+<xml>
+    <ToUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></ToUserName>
+    <FromUserName><![CDATA[gh_62a00f0faec5]]></FromUserName>
+    <CreateTime>1546748362</CreateTime>
+    <MsgType><![CDATA[text]]></MsgType>
+    <Content><![CDATA[位置 贵州省 贵阳市 乌当区 福建街
+贵阳市当前天气如下
+周日 01月06日 (实时：8℃)
+阴转小雨 南风微风 8 ~ 3℃]]></Content>
+</xml>\r\n2019-01-06 12:22:20 R 
+<xml><ToUserName><![CDATA[gh_62a00f0faec5]]></ToUserName>
+<FromUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></FromUserName>
+<CreateTime>1546748538</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>26.609421</Latitude>
+<Longitude>106.639648</Longitude>
+<Precision>30.000000</Precision>
+</xml>\r\n2019-01-06 12:22:20 T 
+<xml>
+    <ToUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></ToUserName>
+    <FromUserName><![CDATA[gh_62a00f0faec5]]></FromUserName>
+    <CreateTime>1546748540</CreateTime>
+    <MsgType><![CDATA[text]]></MsgType>
+    <Content><![CDATA[位置 贵州省 贵阳市 乌当区 福建街
+贵阳市当前天气如下
+周日 01月06日 (实时：8℃)
+阴转小雨 南风微风 8 ~ 3℃]]></Content>
+</xml>\r\n2019-01-06 12:22:50 R 
+<xml><ToUserName><![CDATA[gh_62a00f0faec5]]></ToUserName>
+<FromUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></FromUserName>
+<CreateTime>1546748568</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>26.609421</Latitude>
+<Longitude>106.639648</Longitude>
+<Precision>30.000000</Precision>
+</xml>\r\n2019-01-06 12:22:50 T 
+<xml>
+    <ToUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></ToUserName>
+    <FromUserName><![CDATA[gh_62a00f0faec5]]></FromUserName>
+    <CreateTime>1546748570</CreateTime>
+    <MsgType><![CDATA[text]]></MsgType>
+    <Content><![CDATA[位置 贵州省 贵阳市 乌当区 福建街
+贵阳市当前天气如下
+周日 01月06日 (实时：8℃)
+阴转小雨 南风微风 8 ~ 3℃]]></Content>
+</xml>\r\n2019-01-06 12:23:04 R 
+<xml><ToUserName><![CDATA[gh_62a00f0faec5]]></ToUserName>
+<FromUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></FromUserName>
+<CreateTime>1546748581</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>26.609421</Latitude>
+<Longitude>106.639648</Longitude>
+<Precision>30.000000</Precision>
+</xml>\r\n2019-01-06 12:23:04 T 
+<xml>
+    <ToUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></ToUserName>
+    <FromUserName><![CDATA[gh_62a00f0faec5]]></FromUserName>
+    <CreateTime>1546748584</CreateTime>
+    <MsgType><![CDATA[text]]></MsgType>
+    <Content><![CDATA[位置 贵州省 贵阳市 乌当区 福建街
+贵阳市当前天气如下
+周日 01月06日 (实时：8℃)
+阴转小雨 南风微风 8 ~ 3℃]]></Content>
+</xml>\r\n2019-01-06 12:23:11 R 
+<xml><ToUserName><![CDATA[gh_62a00f0faec5]]></ToUserName>
+<FromUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></FromUserName>
+<CreateTime>1546748589</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>\r\n2019-01-06 12:23:11 T 
+<xml>
+    <ToUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></ToUserName>
+    <FromUserName><![CDATA[gh_62a00f0faec5]]></FromUserName>
+    <CreateTime>1546748591</CreateTime>
+    <MsgType><![CDATA[text]]></MsgType>
+    <Content><![CDATA[取消关注]]></Content>
+</xml>\r\n2019-01-06 12:23:21 R 
+<xml><ToUserName><![CDATA[gh_62a00f0faec5]]></ToUserName>
+<FromUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></FromUserName>
+<CreateTime>1546748599</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>\r\n2019-01-06 12:23:22 T 
+<xml>
+    <ToUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></ToUserName>
+    <FromUserName><![CDATA[gh_62a00f0faec5]]></FromUserName>
+    <CreateTime>1546748602</CreateTime>
+    <MsgType><![CDATA[text]]></MsgType>
+    <Content><![CDATA[欢迎关注，WX回复可能不及时
+您来自 黔西南，当前天气如下
+周日 01月06日 (实时：14℃)
+多云转阴 东南风微风 19 ~ 9℃]]></Content>
+</xml>\r\n2019-01-06 12:23:27 R 
+<xml><ToUserName><![CDATA[gh_62a00f0faec5]]></ToUserName>
+<FromUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></FromUserName>
+<CreateTime>1546748604</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>26.609421</Latitude>
+<Longitude>106.639648</Longitude>
+<Precision>30.000000</Precision>
+</xml>\r\n2019-01-06 12:23:27 T 
+<xml>
+    <ToUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></ToUserName>
+    <FromUserName><![CDATA[gh_62a00f0faec5]]></FromUserName>
+    <CreateTime>1546748607</CreateTime>
+    <MsgType><![CDATA[text]]></MsgType>
+    <Content><![CDATA[位置 贵州省 贵阳市 乌当区 福建街
+贵阳市当前天气如下
+周日 01月06日 (实时：8℃)
+阴转小雨 南风微风 8 ~ 3℃]]></Content>
+</xml>\r\n2019-01-06 12:26:26 R 
+<xml><ToUserName><![CDATA[gh_62a00f0faec5]]></ToUserName>
+<FromUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></FromUserName>
+<CreateTime>1546748783</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://huangyilun.eicp.vip/userInfo]]></EventKey>
+<MenuId>483314531</MenuId>
+</xml>\r\n2019-01-06 12:26:26 T 
+<xml>
+    <ToUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></ToUserName>
+    <FromUserName><![CDATA[gh_62a00f0faec5]]></FromUserName>
+    <CreateTime>1546748786</CreateTime>
+    <MsgType><![CDATA[text]]></MsgType>
+    <Content><![CDATA[receive a new event: VIEW]]></Content>
+</xml>\r\n2019-01-06 12:26:32 R 
+<xml><ToUserName><![CDATA[gh_62a00f0faec5]]></ToUserName>
+<FromUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></FromUserName>
+<CreateTime>1546748789</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>26.609383</Latitude>
+<Longitude>106.639717</Longitude>
+<Precision>30.000000</Precision>
+</xml>\r\n2019-01-06 12:26:32 T 
+<xml>
+    <ToUserName><![CDATA[oYPVm6PPgv919I2I6N1TZmyqkeIo]]></ToUserName>
+    <FromUserName><![CDATA[gh_62a00f0faec5]]></FromUserName>
+    <CreateTime>1546748792</CreateTime>
+    <MsgType><![CDATA[text]]></MsgType>
+    <Content><![CDATA[位置 贵州省 贵阳市 乌当区 福建街
+贵阳市当前天气如下
+周日 01月06日 (实时：8℃)
+阴转小雨 南风微风 8 ~ 3℃]]></Content>
 </xml>\r\n

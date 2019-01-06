@@ -82,13 +82,13 @@ class WeChatController extends Controller
                 $openid = strval($object->FromUserName);
                 $info = (new User)->info($openid);
                 $municipalities = array("北京", "上海", "天津", "重庆", "香港", "澳门"); //四市二区 市名为区地区，这里用省名代替市名
-                if (in_array($info['province'], $municipalities)){
+                if (in_array($info['province'], $municipalities)) {
                     $info['city'] = $info['province'];
                 }
-                $content = "欢迎关注，".$info['nickname'];
-                if ($info['country'] == "中国"){
+                $content = "欢迎关注，" . $info['nickname'];
+                if ($info['country'] == "中国") {
                     $weatherInfo = $this->getWeatherInfo($info['city']);
-                    $content .= "\r\n您来自 ".$info['city']."，当前天气如下\r\n".$weatherInfo[1]["Title"];
+                    $content .= "\r\n您来自 " . $info['city'] . "，当前天气如下\r\n" . $weatherInfo[1]["Title"];
                 }
                 break;
             case 'unsubscribe':
@@ -109,6 +109,10 @@ class WeChatController extends Controller
                 $output = file_get_contents($url);
                 $address = json_decode($output, true);
                 $content = "位置 " . $address["result"]["addressComponent"]["province"] . " " . $address["result"]["addressComponent"]["city"] . " " . $address["result"]["addressComponent"]["district"] . " " . $address["result"]["addressComponent"]["street"];
+                if ($address["result"]["addressComponent"]["country"] == "中国") {
+                    $weatherInfo = $this->getWeatherInfo($address["result"]["addressComponent"]["city"]);
+                    $content .= "\r\n" . $address["result"]["addressComponent"]["city"] . "当前天气如下\r\n" . $weatherInfo[1]["Title"];
+                }
                 break;
             default:
                 $content = 'receive a new event: ' . $object->Event;
